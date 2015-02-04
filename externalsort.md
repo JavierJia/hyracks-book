@@ -18,8 +18,9 @@ Then the ExternalSortRunMerger to merge the runs into the frame ?
         builder.addBlockingEdge(sa, ma);
     }
 ```
+What is the `addSourceEdge` and `addTargetEdge` doing ? What does that `0` mean ? 
 
-How to notify if there need more iterations? 
+How to notify if there need more iterations? It's `ExternalSortRunMerger`'s job.
 
 `ExternalSortRunGenerator` flush to `RunFileWriter`
 
